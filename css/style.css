@@ -249,7 +249,7 @@ text-align: center;
 }
 
 .link_works:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 @media all and (max-width: 500px) {
