@@ -158,6 +158,10 @@ select,
   font-family: robot;
 }
 
+#sample-code{
+  text-decoration: none;
+}
+
 .submit,
 .submit:active,
 .counter-up,
@@ -239,7 +243,7 @@ text-align: center;
 
 .link_works {
   color: rgb(92, 255, 155);
-  text-decoration: none;
+  text-decoration: underline;
   font-family: robot;
   font-weight: bold;
 }
