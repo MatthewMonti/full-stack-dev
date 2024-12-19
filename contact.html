@@ -24,8 +24,7 @@
   </header>
 
   <div class="contact-info">
-      <form name="contact" method="POST" data-netlify="true" onSubmit="
-      submit" enctype="multipart/form-data" >
+      <form name="contact" method="POST" data-netlify="true" enctype="multipart/form-data" >
       <h1 id="contact">Contact me</h1>
       <label for="Name">Name:</label>
         <div class="field">
@@ -42,7 +41,7 @@
         </div>
         <label for="stakeholder">Stakeholder type:</label>
         <div class="field">
-            <select id="stakeholder">
+            <select id="stakeholder" name="stakeholder">
               <option value="employer">Employer</option>
               <option value="politican">Government official</option>
               <option value="nonprofit">Non-Profit Organization</option>
@@ -61,7 +60,7 @@
         </div>
         <div class="field">
           <label for="upload file">Upload File:</label>
-          <input class="input-text" type="file" name="myfile" id="upload file" id="myfile" placeholder="Upload File"
+          <input class="input-text" type="file" name="myfile" id="upload file" placeholder="Upload File"
           rows="7"/>
         </div>
         <div class="field">
