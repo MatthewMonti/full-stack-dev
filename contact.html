@@ -24,21 +24,47 @@
   </header>
 
   <div class="contact-info">
-      <form name="contact" method="POST" data-netlify-recaptcha="true"
-      data-netlify="true"" enctype="multipart/form-data" >
+      <form   
+        name="contact"
+        method="POST"
+        data-netlify-recaptcha="true"
+        data-netlify="true" enctype="multipart/form-data" 
+        >
       <h1 id="contact">Contact me</h1>
       <label for="Name">Name:</label>
         <div class="field">
-          <input class="sent" type="text"  id="Name" name="name" placeholder="Bob" required>
+          <input 
+          class="sent" 
+          type="text"  
+          id="Name" 
+          name="name" 
+          placeholder="Bob" 
+          required
+          >
         </div>
         <label for="email address">Email:</label>
         <div class="field">
-          <input class="sent" type="email" id="email address" name="email" maxlength="350" placeholder="bob@gmail.com" pattern="^[\w!#$%&'*+/=?`{|}~^-]+(?:\.[\w!#$%&'*+/=?`{|}~^-]+)*@↵
-          (?:[A-Z0-9-]+\.)+[A-Z]{2,6}$" required>
+          <input class="sent" 
+            type="email" 
+            id="email address" 
+            name="email" 
+            maxlength="350" 
+            placeholder="bob@gmail.com" 
+            pattern="^[\w!#$%&'*+/=?`{|}~^-]+(?:\.[\w!#$%&'*+/=?`{|}~^-]+)*@↵
+            (?:[A-Z0-9-]+\.)+[A-Z]{2,6}$" 
+            required
+          >
         </div>
         <label for="phone">Phone Number:</label>
         <div class="field">
-          <input class="sent" type="tel" id="phone" name="phone" maxlength="350" placeholder="(123)-456-7890"  pattern="^\(\d{3}\)-\d{3}-\d{4}$">
+          <input 
+            class="sent" 
+            type="tel" 
+            id="phone" 
+            name="phone" 
+            maxlength="350" 
+            placeholder="(123)-456-7890"  
+            pattern="^\(\d{3}\)-\d{3}-\d{4}$">
         </div>
         <label for="stakeholder">Stakeholder type:</label>
         <div class="field">
@@ -61,7 +87,12 @@
         </div>
         <div class="field">
           <label for="upload file">Upload File:</label>
-          <input class="input-text" type="file" name="myfile" id="upload file" placeholder="Upload File"
+          <input 
+          class="input-text" 
+          type="file" 
+          name="myfile" 
+          id="upload file" 
+          placeholder="Upload File"
           rows="7"/>
         </div>
         <div class="field">
